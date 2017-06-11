@@ -1,0 +1,14 @@
+{
+  "name": "majortom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "author": "Leon Reindl",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "johnny-five": "^0.11.1",
+    "socket.io": "^1.7.4"
+  },
+  "homepage": "http://www.hashtag0.com"
+}

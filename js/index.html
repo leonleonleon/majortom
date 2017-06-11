@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Arduino</title>
+        <style type="text/css">
+            body, input {
+                font-family: Arial;
+                font-size: 32px;
+            }
+            .app {
+                width: 20rem;
+                margin: 4rem auto;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="app">
+            <h3>display:</h3>
+            <input id="textinput" type="text">
+        </div>
+
+        <!-- include the client socket library-->
+        <script src="./socket.io.js"></script>
+
+        <script src="./client.js"></script>
+    </body>
+</html>
